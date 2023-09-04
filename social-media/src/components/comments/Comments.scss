@@ -1,0 +1,82 @@
+.comments {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  gap: 1rem;
+  .comment {
+    display: flex;
+    gap: 0.5rem;
+    .userAvatarComments {
+      background-color: aquamarine;
+      padding: 0.4rem;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 50%;
+      object-fit: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    img {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .info {
+      flex: 5;
+      p {
+        margin: 0;
+        color: rgb(121, 121, 121);
+      }
+    }
+    .date {
+      flex: 1;
+      align-self: center;
+    }
+  }
+  .write {
+    display: flex;
+    gap: 0.5rem;
+    .userAvatar {
+      background-color: aquamarine;
+      padding: 0.4rem;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 50%;
+      object-fit: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    img {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    form {
+      flex: 5;
+
+      input {
+        width: calc(100% - 1.5rem);
+        padding: 0.6rem;
+      }
+    }
+
+    button {
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 0.3rem;
+      font-weight: 500;
+      padding: 0.5rem;
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+  span {
+    color: rgb(121, 121, 121);
+  }
+}

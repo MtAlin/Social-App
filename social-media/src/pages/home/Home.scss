@@ -1,0 +1,9 @@
+@import "../../utils/color.scss";
+
+.home {
+  text-align: center;
+  background-color: $backgroundAliceBlue;
+  h1 {
+    margin: 0;
+  }
+}

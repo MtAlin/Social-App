@@ -1,9 +1,14 @@
-import React from 'react'
+import "./Home.scss";
+import Stories from "../../components/stories/Stories";
+import Posts from "../../components/posts/Posts";
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <>
+      <Stories />
+      <Posts />
+    </>
+  );
 }
 
-export default Home
+export default Home;
